@@ -20,7 +20,7 @@ const WeatherInfo = ({ weatherData, cityImage }) => {
           <div className={styles.current_temperature}>
             {weatherData.main.temp.toFixed(0)}℃
           </div>
-          <div className={styles.city_name}>{weatherData.name}</div>{' '}
+          <div className={styles.city_name}>{weatherData.name}</div>
           <div className={styles.name}>
             {weatherData.weather[0].description}
           </div>

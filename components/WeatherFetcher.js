@@ -1,5 +1,4 @@
-// WeatherFetcher.js
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 
 const WeatherFetcher = ({ cityName, setWeatherData }) => {
   useEffect(() => {
